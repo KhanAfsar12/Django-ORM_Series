@@ -1,0 +1,6 @@
+earliest():-
+    It is used to retrieve the first object in a QuerySet baesd on specific field. This method is particularly useful when you want to fetch the oldest record according to datetime or any other ordering field
+
+
+latest():-
+    the latest() method is used to retrieve the last object in a QuerySet based on a specific field. It is the opposite of earliest() and is useful for fetching the most recently added or updated record based on an ordering field.
